@@ -20,13 +20,13 @@
 }
 
 .PurposeSubHeaderText p {
-    font-size: 1.3em;
+    font-size: 16px;
     font-family: "Lato";
     color: rgb(0,0,75,0.8);
 }
 
 .PurposeSubText p {
-    font-size: 16px;
+    font-size: 14px;
     color: rgba(30,30,100, 0.7);
     line-height: 30px;
 }

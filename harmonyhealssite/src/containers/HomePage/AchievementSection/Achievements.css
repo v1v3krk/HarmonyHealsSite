@@ -1,0 +1,120 @@
+.AchievementHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Achievement {
+    max-width: 1300px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AchievementTitle {
+    font-size: 45px;
+    background: -webkit-linear-gradient(45deg, rgb(180,36,128), rgb(234,36,128));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding: 10px 30px; */
+    margin: 0px;
+    font-weight: 1000;
+}
+
+.AchievementInfoBox {
+    width: 100%;
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+}
+
+.AchievementCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.AchievementCategory {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    padding: 30px 10px;
+    background: -webkit-linear-gradient(45deg, #fbd3e6, #f9bdd9);
+    box-shadow: 0px 30px 50px #f9bdd980;
+    /* border-radius: 20px; */
+    /* border: 3px solid black; */
+
+}
+
+
+.AchievementCategoryTitle p{
+    color: #00000080;
+    font-size: 20px;
+    margin: 0px;
+    /* margin-bottom: 50px; */
+
+    /* padding-top: 10px; */
+}
+
+.AchievementCategoryDesc p{
+    color: black;
+    /* margin: 20px 0px; */
+    margin: 10px 0px;
+    font-size: 35px;
+    text-align: center;
+    /* border: 3px solid black; */
+}
+
+.AchievementCardBoxTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0,0,75,0.8);
+}
+
+@media screen and (min-width: 660px) {
+    .AchievementCards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .AchievementTitle {
+        font-size: 55px;
+    }
+    .AchievementCardDesc p , .AchievementCardTitle p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .AchievementCards {
+        grid-template-columns: 1fr 1fr;
+    }
+    .AchievementTitle {
+        font-size: 65px;
+    }
+    .AchievementCardDesc p , .AchievementCardTitle p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .AchievementCards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .AchievementTitle {
+        font-size: 75px;
+    }
+    .AchievementCardDesc p , .AchievementCardTitle p{
+        font-size: 18px;
+    }
+    .AchievementCategoryTitle p {
+        font-size: 30px;
+    }
+    .AchievementCategoryDesc p {
+        font-size: 45px;
+    }
+    .AchievementCategory{
+        padding: 50px 20px;
+    }
+}

@@ -1,7 +1,7 @@
 .HomeJumbotronHolder {
-    background-image: url(../../../assets/images/MainCurveThreeHH.svg);
+    background-image: url(../../../assets/images/MainCurveModOne.svg);
     width: 100%;
-    height: 722px;
+    height: 869px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -19,6 +19,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    text-align: left;
     /* height: 90%; */
     /* padding-left: 20px; */
 }

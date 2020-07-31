@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="232" viewBox="0 0 1920 232">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce34" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffce34"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.742" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd348" stop-opacity="0.529"/>
+      <stop offset="1" stop-color="#f9bd00"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.501" x2="0.501" y2="0.995" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00aeef"/>
+      <stop offset="1" stop-color="#00aeef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e1f4fd"/>
+      <stop offset="0.276" stop-color="#aae1fa"/>
+      <stop offset="0.69" stop-color="#00aeef"/>
+      <stop offset="1" stop-color="#0076a3" stop-opacity="0.929"/>
+      <stop offset="1" stop-color="#f15aeb" stop-opacity="0.612"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="232"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="232" fill="#fff"/>
+    <g id="HHToolbar" transform="translate(0 14)" opacity="0.75" style="isolation: isolate">
+      <path id="Path_2" data-name="Path 2" d="M1920,79.1l-4.51,1.9c1.49-.38,3-.73,4.51-1.07Z" transform="translate(319.396 80.614)" fill="url(#linear-gradient)"/>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 0.89)" opacity="0.11" style="isolation: isolate">
+        <path id="Path_4" data-name="Path 4" d="M2239.4,8.89V122.67l-3.289-.357a708.862,708.862,0,0,0-297.128,29.509l-5.447,1.783c-51.868,17.093-102.791,39.535-156.781,45.009C1694.7,207,1615.292,175.543,1535.316,151.7c-14.183-4.195-28.377-8.222-42.607-11.7a635.314,635.314,0,0,0-261.1-8.62c-39.388,6.921-78.227,17.6-117.043,28.062-55.623,14.975-111.177,29.53-168.281,32.152-84.491,3.691-167.01-18.876-249.973-38.4-34.991-8.2-69.981-15.856-105.193-20.764-89.2-12.385-178.877-7.187-267.444,15.5-10.322,2.663-20.6,5.6-30.85,8.62C246.788,170.2,201.3,186.261,154.11,193.9c-52.054,8.431-108.1,5.432-154.11-20.743V8.89Z" transform="translate(0 -8.89)" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="Path_5" data-name="Path 5" d="M0,79.1,4.51,81c-1.49-.38-3-.73-4.51-1.07Z" transform="translate(0 80.614)" fill="url(#linear-gradient)"/>
+      <path id="Path_6" data-name="Path 6" d="M2239.4,0V113.8l-3.289-.378a709.2,709.2,0,0,0-297.128,29.509l-5.447,1.783c-51.868,17.093-102.791,39.535-156.781,45.009-82.053,8.389-161.458-23.071-241.435-46.917-14.183-4.195-28.377-8.2-42.607-11.7a635.314,635.314,0,0,0-261.1-8.62c-39.388,6.921-78.227,17.6-117.043,28.062-55.588,14.975-111.142,29.53-168.246,32.089C861.794,186.389,779.275,163.8,696.312,144.3c-34.991-8.2-69.981-15.856-105.193-20.764-89.2-12.385-178.877-7.187-267.444,15.5-10.322,2.684-20.6,5.6-30.85,8.62-46.036,13.654-91.524,29.719-138.714,37.353-52.054,8.431-108.1,5.453-154.11-20.743V0Z" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="HHToolbar-2" data-name="HHToolbar" style="isolation: isolate">
+      <path id="Path_2-2" data-name="Path 2" d="M1920,79.1l-4.51,1.9c1.49-.38,3-.73,4.51-1.07Z" transform="translate(319.396 80.614)" fill="#008ad4" stroke="#707070" stroke-width="1"/>
+      <path id="Path_5-2" data-name="Path 5" d="M0,79.1,4.51,81c-1.49-.38-3-.73-4.51-1.07Z" transform="translate(0 80.614)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient-5)"/>
+      <path id="Path_6-2" data-name="Path 6" d="M2239.4,0V113.8l-3.289-.378a709.2,709.2,0,0,0-297.128,29.509l-5.447,1.783c-51.868,17.093-102.791,39.535-156.781,45.009-82.053,8.389-161.458-23.071-241.435-46.917-14.183-4.195-28.377-8.2-42.607-11.7a635.314,635.314,0,0,0-261.1-8.62c-39.388,6.921-78.227,17.6-117.043,28.062-55.588,14.975-111.142,29.53-168.246,32.089C861.794,186.389,779.275,163.8,696.312,144.3c-34.991-8.2-69.981-15.856-105.193-20.764-89.2-12.385-178.877-7.187-267.444,15.5-10.322,2.684-20.6,5.6-30.85,8.62-46.036,13.654-91.524,29.719-138.714,37.353-52.054,8.431-108.1,5.453-154.11-20.743V0Z" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>

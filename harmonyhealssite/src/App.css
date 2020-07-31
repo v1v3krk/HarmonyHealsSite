@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Lato',"CG";
+  font-family: 'Inter700',"CG";
 }
 
 @font-face {
@@ -14,6 +14,87 @@
 }
 
 @font-face {
-  font-family: 'CG';
-  src: local('CG'), url(./assets/fonts/CenturyGothicRegular.ttf) format('truetype');
+  font-family: 'LatoTwoBold';
+  src: local('Lato'), url(./assets/fonts/Lato-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: local('Myriad'), url(./assets/fonts/Myriad\ Pro\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MyriadBlack';
+  src: local('MyriadBlack'), url(./assets/fonts/Myriad\ Pro\ Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter100';
+  src: local('Inter100'), url(./assets/fonts/Inter/Inter100.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Inter200';
+  src: local('Inter200'), url(./assets/fonts/Inter/Inter200.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter300';
+  src: local('Inter300'), url(./assets/fonts/Inter/Inter300.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter400';
+  src: local('Inter400'), url(./assets/fonts/Inter/Inter400.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter500';
+  src: local('Inter500'), url(./assets/fonts/Inter/Inter500.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter600';
+  src: local('Inter600'), url(./assets/fonts/Inter/Inter600.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter700';
+  src: local('Inter700'), url(./assets/fonts/Inter/Inter700.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Inter800';
+  src: local('Inter800'), url(./assets/fonts/Inter/Inter800.ttf) format('truetype');
+}
+
+
+@keyframes fadeInUpMod {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUpMod {
+  animation-name: fadeInUpMod;
+  animation-duration: 500ms;
 }

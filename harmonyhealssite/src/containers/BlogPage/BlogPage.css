@@ -1,0 +1,28 @@
+.BlogPage {
+    padding: 100px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 75px; */
+}
+
+.BlogPage p {
+    /* font-weight: normal; */
+    margin: 20px;
+    text-align: left;
+}
+
+@media screen and (min-width: 660px) {
+
+}
+
+@media screen and (min-width: 960px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1600px) {
+    
+}

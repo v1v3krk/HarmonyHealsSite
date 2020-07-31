@@ -1,0 +1,15 @@
+.TeamButton {
+    padding: 10px 20px;
+    color: white;
+    font-family: "Inter800";
+    background-color: #7be395;
+    transition: all .2s ease-in-out;
+}
+
+.TeamButton p {
+    margin: 0px;
+}
+
+.TeamButton:hover {
+    background-color: #a3ebb5;
+}

@@ -1,41 +1,7 @@
-.AboutUsTextHolder {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.AboutUsText {
-    max-width: 860px;
-}
-
-.AboutUsHeaderText p{
-    font-size: 45px;
-    background: -webkit-linear-gradient(45deg, #006ca2, #00aeff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 10px 30px;
-    margin: 0px;
-    font-weight: 1000;
-}
-
-.AboutUsSubHeaderText p {
-    font-size: 1.3em;
-    font-family: "Lato";
-    color: rgb(0,0,75,0.8);
-}
-
-.AboutUsSubText p {
-    font-size: 16px;
-    color: rgba(30,30,100, 0.7);
-    line-height: 30px;
-}
-
 .AboutUsHolder {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 3px solid black; */
     width: 100%;
     padding: 30px;
     display: flex;
@@ -44,37 +10,164 @@
     background-color: white;
 }
 
+.AboutUsEmphasized {
+    font-family: "Inter800";
+}
+
+.AboutUsTextHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.AboutUsHeaderText p{
+    font-size: 39px;
+    /* background: -webkit-linear-gradient(45deg, #006ca2, #00aeff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    padding: 10px 30px;
+    margin: 0px;
+    color: black;
+    max-width: 1060px;
+
+}
+
+.AboutUsJoin {
+    padding: 10px 20px;
+    color: white;
+    font-family: "Inter800";
+    background-color: #00aeff;
+    transition: all .2s ease-in-out;
+}
+
+
+.AboutUsJoin:hover {
+    background-color: #99dfff;
+}
+
+.AboutUsJoin p {
+    margin: 0px;
+}
+
+.AboutUsSubHeaderText p {
+    font-size: 20px;
+    font-family: "Inter400";
+    color: #717d86;
+    line-height: 30px;
+    max-width: 760px;
+}
+
+
+.AboutBreakline {
+    display: inline;
+}
+
+.AboutUsPointsHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+
+.AboutUsPoints {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.AboutUsPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.AboutUsPointImage {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#memberimg {
+    background-image: url(../../../assets/images/MemberIso.svg);
+}
+
+#partnerimg {
+    background-image: url(../../../assets/images/PartnershipIso.svg);
+}
+
+#sponsorimg {
+    background-image: url(../../../assets/images/SponserIso.svg);
+}
+
+.AboutUsPointTitle {
+    font-size: 28px;
+    color: #00aeff
+}
 
 
 
 @media screen and (min-width: 660px) {
     .AboutUsHeaderText p{
-        font-size: 55px;
+        font-size: 49px;
     }
 
     .AboutUsSubText p {
-        font-size: 17px;
+        font-size: 20px;
+    }
+
+    .AboutBreakline {
+        display: none;
+    }
+
+    .AboutUsPointImage {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 720px) {
+    .AboutUsPoints {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 }
 
 @media screen and (min-width: 960px) {
     .AboutUsHeaderText p{
-        font-size: 65px;
+        font-size: 50px;
     }
 
     .AboutUsSubText p {
-        font-size: 17px;
+        font-size: 21px;
+    }
+
+    .AboutUsPointImage {
+        height: 250px;
     }
     
 }
 
 @media screen and (min-width: 1200px) {
     .AboutUsHeaderText p{
-        font-size: 75px;
+        font-size: 50px;
     }
 
     .AboutUsSubText p {
-        font-size: 18px;
+        font-size: 23px;
+    }
+
+    .AboutUsPointImage {
+        height: 300px;
     }
 }

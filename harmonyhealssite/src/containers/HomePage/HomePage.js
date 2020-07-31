@@ -10,30 +10,29 @@ import Donation from './DonationSection/Donation';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import MemberSection from './MemberSection/Member';
+import Team from './TeamSection/Team';
+import AchievementSection from './AchievementSection/Achievements';
+import Contact from "./ContactSection/Contact";
 
 
 class HomePage extends Component {
 
     render() {
+
+        const animateDuration = 2;
+
         return (
             <div>
                 <HomeJumbotron></HomeJumbotron>
                 <div className="HomePage">
-                    <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                        <AboutUs></AboutUs>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                        <CoreValues></CoreValues>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                        <MemberSection></MemberSection>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                        <Purpose></Purpose>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                        <Donation></Donation>
-                    </ScrollAnimation>
+                    <AboutUs></AboutUs>
+                    <CoreValues></CoreValues>
+                    <MemberSection></MemberSection>
+                    <Purpose></Purpose>
+                    <AchievementSection></AchievementSection>
+                    <Donation></Donation>
+                    <Team></Team>
+                    {/* <Contact></Contact> */}
                 </div>
             </div>
 

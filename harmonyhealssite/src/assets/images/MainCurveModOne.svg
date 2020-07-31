@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="869" viewBox="0 0 1920 869">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.728" y1="0.033" x2="0.603" y2="1.077" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aae1fa"/>
+      <stop offset="0.05" stop-color="#a8e0fa"/>
+      <stop offset="1" stop-color="#00aeef"/>
+    </linearGradient>
+    <filter id="Path_1" x="-11.5" y="-8.5" width="1945.005" height="873.234" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.368" y1="0.31" x2="0.364" y2="1.006" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb3af5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e33be3" stop-opacity="0.812"/>
+    </linearGradient>
+    <filter id="Path_4" x="1085.255" y="-6" width="1527.489" height="657.881" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.071" y1="-0.676" x2="0.472" y2="1.184" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#006ca2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f5cb42" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Path_3" x="491.988" y="-148.899" width="1562.813" height="640.583" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.486" y1="-0.099" x2="0.472" y2="1.184" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5cb42" stop-opacity="0"/>
+      <stop offset="0.017" stop-color="#00aeff" stop-opacity="0.047"/>
+      <stop offset="0.213" stop-color="#00aeff" stop-opacity="0.259"/>
+      <stop offset="0.519" stop-color="#f5cb42" stop-opacity="0.729"/>
+      <stop offset="1" stop-color="#f5cb42"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.328" y1="0.869" x2="0.284" y2="-0.542" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00aeef"/>
+      <stop offset="0.677" stop-color="#aae1fa" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.435" stop-color="#fff" stop-opacity="0.482"/>
+      <stop offset="1" stop-color="#006ca2" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="869"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="869" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M-73.845,226.378c357.639,548.694,387.754,500.873,520.6,489.654S1848.16,308.841,1848.16,308.841V-128.146h-1922Z" transform="translate(73.85 128.15)" stroke="rgba(255,255,255,0.17)" stroke-width="5" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_4)">
+      <path id="Path_4-2" data-name="Path 4" d="M950.909-79.959c-3.381,2.162,417.828,611.753,479.506,633.794,7.434,2.657,18.834,4.868,28.218,5.642,7.626.629,12.949-.015,23.076,0,117.075.178,978.639-369.209,978.639-369.209,1.67-.357-66.708-270.4-66.708-270.4Z" transform="translate(143.37 80.13)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_3)">
+      <path id="Path_3-2" data-name="Path 3" d="M856.849-80.128c369.185,429.47,368.152,445.1,447.27,445.221s968.522-279.28,968.522-279.28c1.128-.248,106.554-288.276,106.554-288.276Z" transform="matrix(1, 0.03, -0.03, 1, -340.52, 30.73)" stroke="#f5cb42" stroke-width="2" fill="url(#linear-gradient-3)"/>
+    </g>
+    <path id="Path_3-3" data-name="Path 3" d="M856.849-80.128c416.407,520.9,415.241,539.849,504.478,540S2056.44,260.338,2056.44,260.338c1.272-.3,0-340.466,0-340.466Z" transform="translate(-135 80.128)" fill="url(#linear-gradient-4)"/>
+    <path id="Path_5" data-name="Path 5" d="M914.515-80.128C1256.03,396.517,1241.53,421.214,1324.2,421.354s643.955-172.569,643.955-172.569c1.179-.28,0-328.915,0-328.915Z" transform="matrix(0.999, -0.035, 0.035, 0.999, -32.129, 14.079)" opacity="0.71" fill="url(#linear-gradient-5)"/>
+    <path id="Path_1-3" data-name="Path 1" d="M182,0" transform="translate(1365.5 321.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    <path id="Rectangle_3" data-name="Rectangle 3" d="M0,249Z" fill="url(#linear-gradient-6)"/>
+  </g>
+</svg>

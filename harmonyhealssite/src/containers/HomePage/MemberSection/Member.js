@@ -1,53 +1,87 @@
 import React, { Component } from 'react';
 
 import "./Member.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import { FaInstagram, FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+
 
 class MemberSection extends Component {
 
     render() {
 
         return (
-            <div className="MemberHolder">
-                <div className="Member">
-                    <div className="MemberInfoBox">
-                        <div className="MemberCardBoxTitle">
-                            <p>Be Part of the Change</p>
-                        </div>
-                        <div className="MemberCards">
-                            <div className="MemberCategory">
-                                <div className="MemberCategoryTitle">
-                                    <p>As a Member</p>
-                                </div>
-                                <div className="MemberCategoryDesc">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "</p>
-                                </div>
+            <div className="MemberPointsHolder">
+                <ScrollAnimation animateIn="fadeInUpMod" animateOnce duration={2}>
+                    <div className="MemberTitle">
+                        <p>Join the <span className="mattered">Community</span></p>
+                    </div>
+                    <div className="MemberSocialIconHolder">
+                        <div className="MemberSocialIcons">
+                            <div className="MemberSocialIcon">
+                                <FaInstagram />
                             </div>
-                            <div className="MemberCategory">
-                                <div className="MemberCategoryTitle">
-                                    <p>As an Ambassador</p>
-                                </div>
-                                <div className="MemberCategoryDesc">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "</p>
-                                </div>
+                            <div className="MemberSocialIcon">
+                                <FaTwitter />
                             </div>
-                            <div className="MemberCategory">
-                                <div className="MemberCategoryTitle">
-                                    <p>As a Partner</p>
-                                </div>
-                                <div className="MemberCategoryDesc">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "</p>
-                                </div>
+                            <div className="MemberSocialIcon">
+                                <FaFacebook />
                             </div>
-                            <div className="MemberCategory">
-                                <div className="MemberCategoryTitle">
-                                    <p>As a Sponsor</p>
-                                </div>
-                                <div className="MemberCategoryDesc">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "</p>
-                                </div>
+                            <div className="MemberSocialIcon">
+                                <FaLinkedin />
                             </div>
                         </div>
                     </div>
+                </ScrollAnimation>
+                <div className="MemberPoints">
+                    <ScrollAnimation animateIn="fadeInUpMod" animateOnce duration={2} delay={250}>
+                        <div className="MemberPoint">
+                            <div className="MemberPointImage" id="memberimg"> </div>
+                            <div className="MemberPointTitle mattered">
+                                Join as a Member
+                            </div>
+                            <div className="MemberSubHeaderText">
+                                <p>Join us to receive updates about our <span className="MemberEmphasized">ambitions, volunteer opportunities, and tips</span> to spread awareness for our cause.</p>
+                            </div>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLs-saLFJm4KBVrZDjhqg52hcB9O7YHZIXF2Zf9E1R1x98eQ/viewform?usp=sf_link">
+                                <div className="MemberButton">
+                                    <p>Join Now!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUpMod" animateOnce duration={2} delay={0}>
+
+                        <div className="MemberPoint">
+                            <div className="MemberPointImage" id="partnerimg"></div>
+                            <div className="MemberPointTitle mattered">
+                                Join as a Partner
+                            </div>
+                            <div className="MemberSubHeaderText">
+                                <p>Collaborate with us to take our <span className="MemberEmphasized">initiatives</span> and societal impact to the <span className="MemberEmphasized">next level</span>, while reaching our goals faster.</p>
+                            </div>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6YEEHLrhIumIv8Dwa7ZTGtax8wIKDjD_c9TDovZWhPWssJw/viewform?usp=sf_link">
+                                <div className="MemberButton">
+                                    <p>Partner Up!</p>
+                                </div>
+                            </a>
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUpMod" animateOnce duration={2} delay={500}>
+
+                        <div className="MemberPoint">
+                            <div className="MemberPointImage" id="sponsorimg"></div>
+                            <div className="MemberPointTitle mattered">
+                                Join as a Sponsor
+                            </div>
+                            <div className="MemberSubHeaderText">
+                                <p>Sponsor us to <span className="MemberEmphasized">contribute</span> to those in need and be promoted through our <span className="MemberEmphasized">projects, website, merchandise, and social media</span>.</p>
+                            </div>
+                            <div className="MemberButton">
+                                <p>Sponsor Us!</p>
+                            </div>
+                        </div>
+                    </ScrollAnimation>
                 </div>
 
             </div>

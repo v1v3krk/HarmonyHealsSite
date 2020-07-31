@@ -1,48 +1,67 @@
-.CoreHolder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
 .Core {
-    max-width: 1300px;
+    max-width: 1400px;
     width: 100%;
     /* background-color: white; */
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 70px 0px;
+
+}
+
+.CoreTextHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .CoreInfoBox {
-    box-shadow: 0px 0px 70px rgba(0,174,255, 0.15);
+    box-shadow: 0px 0px 30px #eeeeee;
     width: 100%;
-    padding: 50px;
-    border-radius: 20px;
+    padding: 30px 0px;
+    /* border: 3px solid black; */
+    /* border-radius: 20px; */
+
+}
+
+.CoreCardsHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 30px;
+    /* width: 100%; */
+    /* border: 3px solid black; */
 
 }
 
 .CoreCards {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    /* border: 3px solid black; */
+    
 }
 
 .CoreCard {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-flow: column;
-    width: 80%;
-    padding: 15px 30px;
+    width: 100%;
+    /* border: 3px solid black; */
+    /* padding: 15px 30px; */
 }
 
 .CoreIcon {
-    height: 100px;
-    width: 100px;
-    box-shadow: 0px 0px 30px rgba(71, 59, 204, 0.15);
+    height: 90px;
+    width: 90px;
+    box-shadow: 0px 0px 30px #eeeeee;
     border-radius: 50%;
-    margin: 20px;
+    margin: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,24 +69,33 @@
 }
 
 .CoreCardTitle p{
-    font-weight: 700;
-    color: rgb(0,0,75,0.8);
-    font-size: 16px;
+    /* color: black; */
+    font-size: 20px;
+    font-family: "Inter600";
     margin: 0px;
-    padding: 10px 0px;
+    width: 100%;
 }
 
 .CoreCardDesc p{
-    color: rgba(30,30,100, 0.6);
-    margin: 0px;
+    font-size: 18px;
+    font-family: "Inter400";
+    color: #717d86;
     line-height: 30px;
-    font-size: 16px;
+    max-width: 360px;
+    margin: 10px;
+    width: 100%;
 }
 
 .CoreCardBoxTitle {
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(0,0,75,0.8);
+    font-size: 40px;
+    color: #000000;
+    font-family: "Inter700";
+    padding-top: 30px;
+    width: 100%;
+}
+
+.CoreCardBoxTitle p {
+    margin: 0px;
 }
 
 @media screen and (min-width: 660px) {
@@ -80,6 +108,8 @@
     .CoreCardDesc p , .CoreCardTitle p{
         font-size: 17px;
     }
+    
+
 }
 
 @media screen and (min-width: 960px) {
@@ -98,7 +128,112 @@
     .CoreTitle {
         font-size: 75px;
     }
-    .CoreCardDesc p , .CoreCardTitle p{
+    .CoreCardDesc p {
         font-size: 18px;
+    }
+
+    .CoreCardTitle p {
+        font-size: 23px;
+    }
+    
+}
+
+.CoreHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.CoreEmphasized {
+    font-family: "Inter800";
+}
+
+.CoreTextHolder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.CoreHeaderText p{
+    font-size: 34px;
+    /* background: -webkit-linear-gradient(45deg, #006ca2, #00aeff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    padding: 10px 30px;
+    margin: 0px;
+    /* color: black; */
+    max-width: 1060px;
+
+}
+
+.CoreJoin {
+    padding: 10px 20px;
+    color: white;
+    font-family: "Inter800";
+    background-color: #00aeff;
+    transition: all .2s ease-in-out;
+}
+
+
+.CoreJoin:hover {
+    background-color: #99dfff;
+}
+
+.CoreJoin p {
+    margin: 0px;
+}
+
+.CoreSubHeaderText p {
+    font-size: 18px;
+    font-family: "Inter400";
+    color: #717d86;
+    line-height: 30px;
+    max-width: 660px;
+}
+
+
+
+@media screen and (min-width: 660px) {
+    .CoreHeaderText p{
+        font-size: 44px;
+    }
+
+    .CoreSubText p {
+        font-size: 19px;
+    }
+
+    .AboutBreakline {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 960px) {
+    .CoreHeaderText p{
+        font-size: 45px;
+    }
+
+    .CoreSubText p {
+        font-size: 21px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .CoreHeaderText p{
+        font-size: 45px;
+    }
+
+    .CoreSubText p {
+        font-size: 23px;
     }
 }

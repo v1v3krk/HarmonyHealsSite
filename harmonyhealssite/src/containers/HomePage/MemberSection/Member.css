@@ -5,102 +5,149 @@
     width: 100%;
 }
 
-.Member {
-    max-width: 1300px;
+.MemberPointsHolder {
     width: 100%;
-    background: -webkit-linear-gradient(180deg,#006ca2, #00aeff);
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.MemberPoints {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 70px 0px;
+}
+
+.MemberPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.MemberPointImage {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#educateimg {
+    background-image: url(../../../assets/images/EducationIso.svg);
+}
+
+#awareimg {
+    background-image: url(../../../assets/images/AwareIso.svg);
+}
+
+#fundraiseimg {
+    background-image: url(../../../assets/images/FundraiseIso.svg);
+}
+
+.MemberPointTitle {
+    font-size: 28px;
+}
+
+.MemberSubHeaderText p {
+    font-size: 18px;
+    font-family: "Inter400";
+    color: #717d86;
+    line-height: 30px;
+    max-width: 660px;
+}
+
+.MemberEmphasized {
+    font-family: "Inter800";
+}
+
+.MemberTitle {
+    font-size: 40px;
+    /* color: #000000; */
+    font-family: "Inter700";
+    padding-top: 30px;
+}
+
+.MemberTitle p {
+    margin: 0px;
+}
+
+.MemberSocialIconHolder {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.MemberTitle {
-    font-size: 45px;
-    background: -webkit-linear-gradient(45deg, rgb(180,36,128), rgb(234,36,128));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* padding: 10px 30px; */
-    margin: 0px;
-    font-weight: 1000;
-}
-
-.MemberInfoBox {
-    box-shadow: 0px 30px 50px rgba(0,174,255, 0.3);
-    width: 100%;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.MemberCards {
+.MemberSocialIcons {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 200px;
 }
 
-.MemberCategory {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-flow: column;
-    padding: 20px;
+.MemberSocialIcon {
+    /* border: 3px solid black; */
+    font-size: 25px;
+    color: #e3493b;
 }
 
+.MemberSocialIcon:hover {
+    color: #f1a49d;
+    cursor: pointer;
+}
 
-.MemberCategoryTitle p{
-    font-weight: 700;
+.MemberButton {
+    padding: 10px 20px;
     color: white;
-    font-size: 16px;
-    margin: 0px;
-    padding: 10px 0px;
+    font-family: "Inter800";
+    background-color: #e3493b;
+    transition: all .2s ease-in-out;
 }
 
-.MemberCategoryDesc p{
-    color: rgba(255,255,255,0.75);
-    margin: 0px;
-    line-height: 30px;
-    font-size: 16px;
-    text-align: left;
+.MemberButton:hover {
+    background-color: #f1a49d;
+    cursor: pointer;
 }
 
-.MemberCardBoxTitle {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
+.MemberButton p {
+    margin: 0px;
 }
+
 
 @media screen and (min-width: 660px) {
-    .MemberCards {
-        grid-template-columns: 1fr 1fr;
+
+    .MemberPointImage {
+        height: 200px;
     }
-    .MemberTitle {
-        font-size: 55px;
+    
+}
+
+@media screen and (min-width: 720px) {
+    .MemberPoints {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .MemberCardDesc p , .MemberCardTitle p{
-        font-size: 17px;
-    }
+    
 }
 
 @media screen and (min-width: 960px) {
-    .MemberCards {
-        grid-template-columns: 1fr 1fr;
+
+    .MemberPointImage {
+        height: 250px;
     }
-    .MemberTitle {
-        font-size: 65px;
-    }
-    .MemberCardDesc p , .MemberCardTitle p{
-        font-size: 17px;
-    }
+    
 }
 
 @media screen and (min-width: 1200px) {
-    .MemberCards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .MemberTitle {
-        font-size: 75px;
-    }
-    .MemberCardDesc p , .MemberCardTitle p{
-        font-size: 18px;
+
+    .MemberPointImage {
+        height: 300px;
     }
 }
