@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import HomeJumbotron from "./HomeJumbotron/HomeJumbotron";
 import AboutUs from './AboutUsSection/AboutUs';
 import CoreValues from "./CoreValues/CoreValues";
+import BlogSnip from "./BlogSection/BlogSnippet"
 
 import "./HomePage.css";
 import Purpose from './PurposeSection/Purpose';
@@ -32,6 +33,7 @@ class HomePage extends Component {
                     <AchievementSection></AchievementSection>
                     <Donation></Donation>
                     <Team></Team>
+                    <BlogSnip></BlogSnip>
                     {/* <Contact></Contact> */}
                 </div>
             </div>
