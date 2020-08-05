@@ -1,0 +1,67 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-space-between;
+  background-image: url(../../../assets/images/Slums_in_milwaukee_1936.png);
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:10px;
+  color: white;
+  border-radius: 25px;
+  position: relative;
+  flex:1;
+  max-width: 300px;
+  float: left;
+  cursor : pointer;
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.Card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  transform: scale(1.05);
+}
+
+
+.category {
+    display: inline-block;
+    background: #6342f5;
+    padding: 8px 10px;
+    margin: 0 5px 10px;
+    color: #FFF;
+    font-size: 0.75rem;
+    font-weight: 600;
+    width: min-content;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+    float:left;
+  }
+
+
+
+.title {
+    margin: 0 0 0px;
+    color: #7be395;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+  }
+
+.description {
+    color: white;
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+  }
+
+
+.Cards {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
