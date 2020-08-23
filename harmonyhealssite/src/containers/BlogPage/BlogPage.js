@@ -25,6 +25,8 @@ class BlogPage extends Component {
       }
 
 
+
+
       setName = (blog) => {
         this.setState({
           title: blog['title']
@@ -72,11 +74,16 @@ class BlogPage extends Component {
                   </div>
                     <div dangerouslySetInnerHTML={{__html: blog.content}}></div>
                 </div>
-                  <div className = "AuthorCard">
-                    <div className = "ProfPic"></div>
-                    <div className = "Author">{blog['author']}</div>
-                    <div className = "Summary">{blog['summary']}</div>
-                  </div>
+                <div className = "AuthorCard">
+                  <div className = "Author">References</div>
+                  <div className = "referencesHolder">
+                    <ul>
+                      {blog['references'].map((reference) =>
+                        <li><a href = {reference} className = "reference">{reference}</a></li>
+                      )}
+                    </ul>
+                    </div>
+                </div>
               </div>
 
             );

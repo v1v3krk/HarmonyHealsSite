@@ -1,3 +1,4 @@
+
 .BlogPage {
     padding: 100px 20px;
     display: grid;
@@ -13,6 +14,13 @@
     /* gap: 75px; */
 }
 
+p{
+  font-weight: 100;
+}
+b{
+  color: #00aeff;
+}
+
 .BlogPage p {
     /* font-weight: normal; */
     margin: 30px;
@@ -22,25 +30,12 @@
 .blog{
   grid-column: boxa;
   box-shadow: 0px 0px 30px #eeeeee;
-  background: #21303b;
-  color: #fff;
-  outline: 1px dashed #98abb9;
-  outline-offset: -5px;
-
-
 }
 
 .BlogHeaderText{
-  outline: 1px dashed #98abb9;
-   outline-offset: -5px;
-   background-color: #556068;
-   height: min-content;
-   width: min-content;
-   margin: 25px auto;
-   /*shadow*/
-   -webkit-box-shadow: 2px 2px 2px #000;
-   -moz-box-shadow: 2px 2px 2px #000;
-   box-shadow: 2px 2px 2px #000;
+  display: inline-block;
+  padding: 8px 10px;
+  width: min-width;
 
 }
 
@@ -64,7 +59,23 @@
 .Author{
   font-size: 2em;
   margin: 0 auto;
+  padding-top: 20px;
 
+}
+
+a{
+  color: #00aeff;
+
+}
+
+.referencesHolder{
+  align-items: left;
+  text-align: left;
+
+}
+
+li{
+  margin: 10px 0;
 }
 
 .Summary{
@@ -78,27 +89,18 @@
 
 
 .bloghead{
-  color:white;
-  font-size: 70px;
- line-height: 190px;
- font-family: Helvetica, sans-serif;
- font-weight: bold;
- text-align: center;
+  color: black;
+  font-size: 3em;
 }
 
-.footer{
-  background-color: #556068;
-  margin: auto;
-  
-
-
-}
+/* .footer{
+  background-color: purple;
+  padding: .01em;
+  border-radius: 25px 25px 0px 0px;
+} */
 
 .footer-text{
-  color: white;
-  font-size: 20px;
-
-
+  color: black;
 }
 
 @media screen and (max-width: 660px) {
