@@ -67,12 +67,16 @@ class BlogPage extends Component {
             return (
               <div className="BlogPage">
                 <div className = "blog">
+                  <div className = "BlogDate">
+                    <p className = "blogDateText">{blog.date}</p>
+                  </div>
                   <div className = "BlogHeaderTextPad">
                     <div className = "BlogHeaderText">
                       <p className = "bloghead">{blog.title}</p>
                     </div>
                   </div>
-                    <div dangerouslySetInnerHTML={{__html: blog.content}}></div>
+
+                  <div dangerouslySetInnerHTML={{__html: blog.content}}></div>
                 </div>
                 <div className = "AuthorCard">
                   <div className = "Author">References</div>

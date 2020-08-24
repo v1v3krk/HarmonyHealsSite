@@ -27,9 +27,18 @@ b{
     text-align: left;
 }
 
+.blogDateText{
+  color: #00aeff;
+}
+
+.BlogDate{
+
+}
+
 .blog{
   grid-column: boxa;
   box-shadow: 0px 0px 30px #eeeeee;
+
 }
 
 .BlogHeaderText{
@@ -59,7 +68,7 @@ b{
 .Author{
   font-size: 2em;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: .75em;
 
 }
 
@@ -69,13 +78,13 @@ a{
 }
 
 .referencesHolder{
-  align-items: left;
   text-align: left;
+  align-items: left;
 
 }
 
 li{
-  margin: 10px 0;
+  margin: .3em 0;
 }
 
 .Summary{
@@ -107,6 +116,7 @@ li{
   .Cards{
     grid-template-columns: 1fr;
     grid-gap: 4em;
+
   }
 
 }
@@ -114,8 +124,25 @@ li{
 @media screen and (max-width: 960px) {
   .BlogPage{
     grid-template-columns: 1fr;
-    grid-template-areas:
-    "boxa";
+    grid-template-areas:"boxa";
+
+  }
+
+  .blog{
+    grid-area: auto;
+  }
+
+  .AuthorCard{
+    grid-area: auto;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
+  .BlogPage{
+    grid-template-columns: 1fr;
+    grid-template-areas:"boxa";
+    padding: 120px 0px;
 
   }
 
