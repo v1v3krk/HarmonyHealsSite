@@ -24,7 +24,7 @@ class Toolbar extends Component {
 
     render() {
 
-        const toolbaTabs = [['Blog', '/blog'],['Donate', '/donate'],['Team', '/team']]
+        const toolbaTabs = [['Blog', '/blogcards'],['Donate', '/donate'],['Team', '/team']]
 
         const renderTabs = toolbaTabs.map((element, igKey) => {
             return (
@@ -34,10 +34,10 @@ class Toolbar extends Component {
             )
         })
         return (
-            <div className="ToolBarHolder" style={{ backgroundColor: this.state.opaque ? "#00aeff" : "transparent", 
-            visibility: this.state.hidden ? "hidden" : "visible", 
+            <div className="ToolBarHolder" style={{ backgroundColor: this.state.opaque ? "#00aeff" : "transparent",
+            visibility: this.state.hidden ? "hidden" : "visible",
             transition: "visibility 0.25s, opacity 0.25s linear, background 0.25s linear, background-color 0.25s linear, background-image 0.25s linear",
-            // transition: "all 0.25s ease-in-out", 
+            // transition: "all 0.25s ease-in-out",
             opacity: this.state.hidden ? "0": "1" ,
             }}>
             <div className="ToolBar">

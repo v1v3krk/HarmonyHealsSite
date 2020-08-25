@@ -39,27 +39,27 @@ class BlogPage extends Component {
         const animateDuration = 2;
 
 
-        const Card = (props) => {
-          const data = props.data
-          const listCards = data['blogs'].map((blog) =>
-            <div className = "Card" onClick = {() => this.setName(blog)}>
-              <div className = "categories">
-                {blog['categories'].map((category) =>
-                <h3 className = "category">{category}</h3>
-              )}</div>
-              <h2 className = "title">{blog['title']}</h2>
-              <p className = "description">{shorten(blog['summary'], 150)}</p>
-            </div>
-          )
-
-          return(
-            <div className = "Cards">
-                {listCards}
-            </div>
-
-          )
-
-        }
+        // const Card = (props) => {
+        //   const data = props.data
+        //   const listCards = data['blogs'].map((blog) =>
+        //     <div className = "Card" onClick = {() => this.setName(blog)}>
+        //       <div className = "categories">
+        //         {blog['categories'].map((category) =>
+        //         <h3 className = "category">{category}</h3>
+        //       )}</div>
+        //       <h2 className = "title">{blog['title']}</h2>
+        //       <p className = "description">{shorten(blog['summary'], 150)}</p>
+        //     </div>
+        //   )
+        //
+        //   return(
+        //     <div className = "Cards">
+        //         {listCards}
+        //     </div>
+        //
+        //   )
+        //
+        // }
 
 
         const blogDataRenderOne = blogdata.blogs.map((blog) => {
@@ -114,9 +114,7 @@ class BlogPage extends Component {
         return (
             <div>
                 <SubJumbotron></SubJumbotron>
-                <div className = "CardsHolder">
-                    <Card data = {blogdata}></Card>
-                </div>
+                
                   {blogDataRenderOne}
 
 
