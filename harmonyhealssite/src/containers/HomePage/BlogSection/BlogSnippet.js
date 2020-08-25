@@ -32,7 +32,7 @@ class BlogSnip extends Component {
         title: ""
       })
       return <Redirect to={{pathname: '/blog', state: {...copystate}}} />
-        
+
     }
 
 
@@ -63,7 +63,7 @@ class BlogSnip extends Component {
                 <h3 className = "category">{category}</h3>
               )}</div>
               <h2 className = "title">{blog['title']}</h2>
-              <p className = "description">{shorten(blog['summary'], 150)}</p>
+              <p className = "description">{shorten(blog['summary'], 160)}</p>
             </div>
           </div>
         )
@@ -91,9 +91,12 @@ class BlogSnip extends Component {
                 </div>
               </div>
             </ScrollAnimation>
-          <div className = "CardsHolder">
-              <Card data = {blogdata}></Card>
-          </div>
+          <ScrollAnimation animateIn = "fadeInUpMod" animateOnce duration = {2}>
+            <div className = "CardsHolder">
+                <Card data = {blogdata}></Card>
+            </div>
+          </ScrollAnimation>
+
         </div>
       )
 
