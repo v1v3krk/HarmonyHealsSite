@@ -49,15 +49,18 @@ class BlogSnip extends Component {
 
     render() {
 
-
-
+      var counter = -1;
+      function makeid(){
+        counter++;
+        return "card" + "abcd".charAt(counter);
+      }
 
       const Card = (props) => {
         const data = props.data
 
         const listCards = data['blogs'].map((blog,) =>
           <div onClick = {this.setRedirect} className="fake-Card">
-            <div className = "Card" onClick = {() => this.setName(blog)}>
+            <div id = {makeid()} className = "Card" onClick = {() => this.setName(blog)}>
               <div className = "categories">
                 {blog['categories'].map((category) =>
                 <h3 className = "category">{category}</h3>
@@ -66,6 +69,7 @@ class BlogSnip extends Component {
               <p className = "description">{shorten(blog['summary'], 160)}</p>
             </div>
           </div>
+
         )
 
         return(

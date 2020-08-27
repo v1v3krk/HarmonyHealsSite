@@ -59,6 +59,11 @@ class BlogCards extends Component {
       render() {
 
         const animateDuration = 2;
+        var counter = -1;
+        function makeid(){
+          counter++;
+          return "card" + "abcd".charAt(counter);
+        }
 
 
         const Card = (props) => {
@@ -66,7 +71,7 @@ class BlogCards extends Component {
 
           const listCards = data['blogs'].map((blog,) =>
             <div onClick = {this.setRedirect} className="fake-Card">
-              <div className = "Card" onClick = {() => this.setName(blog)}>
+              <div id = {makeid()} className = "Card" onClick = {() => this.setName(blog)}>
                 <div className = "categories">
                   {blog['categories'].map((category) =>
                   <h3 className = "category">{category}</h3>

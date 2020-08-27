@@ -133,14 +133,14 @@
     .AboutUsPointImage {
         height: 200px;
     }
-    
+
 }
 
 @media screen and (min-width: 720px) {
     .AboutUsPoints {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+
 }
 
 @media screen and (min-width: 960px) {
@@ -155,7 +155,7 @@
     .AboutUsPointImage {
         height: 250px;
     }
-    
+
 }
 
 @media screen and (min-width: 1200px) {
